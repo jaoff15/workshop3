@@ -21,9 +21,11 @@ architecture Behavioral of debounce is
 
 begin
     
+    -- calculate the output
     output <= shift_register(3) and shift_register(2) and shift_register(1) and shift_register(0); 
 
 
+    -- Make a variable prescaler and thereby a variable debounce period
     with sw select    
     clock_run <=    prescaler(24) when "0000",
                     prescaler(23) when "0001", 
