@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Mon Feb 11 16:34:45 2019
+| Date         : Wed Feb 13 12:16:56 2019
 | Host         : offersen-S550CB running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
 | Design       : top
@@ -24,11 +24,11 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 8
+             Violations found: 7
 +-------------+----------+-------------------------------------------------------------+------------+
 | Rule        | Severity | Description                                                 | Violations |
 +-------------+----------+-------------------------------------------------------------+------------+
-| PDRC-153    | Warning  | Gated clock check                                           | 4          |
+| PDRC-153    | Warning  | Gated clock check                                           | 3          |
 | PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 3          |
 | ZPS7-1      | Warning  | PS7 block required                                          | 1          |
 +-------------+----------+-------------------------------------------------------------+------------+
@@ -37,22 +37,17 @@ Table of Contents
 -----------------
 PDRC-153#1 Warning
 Gated clock check  
-Net debounce_down/shift_register_reg[0]_0 is a gated clock net sourced by a combinational pin debounce_down/counter_down[3]_i_2/O, cell debounce_down/counter_down[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net debounce_down/shift_register_reg[3]_0 is a gated clock net sourced by a combinational pin debounce_down/counter_down[3]_i_2/O, cell debounce_down/counter_down[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#2 Warning
 Gated clock check  
-Net debounce_up/CLK is a gated clock net sourced by a combinational pin debounce_up/counter_up[3]_i_2/O, cell debounce_up/counter_up[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net debounce_up/shift_register_reg[3]_0 is a gated clock net sourced by a combinational pin debounce_up/counter_up[3]_i_2/O, cell debounce_up/counter_up[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#3 Warning
 Gated clock check  
 Net running_leds0/clock_flash is a gated clock net sourced by a combinational pin running_leds0/shift_led[3]_i_2/O, cell running_leds0/shift_led[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#4 Warning
-Gated clock check  
-Net running_leds0/switches[3] is a gated clock net sourced by a combinational pin running_leds0/shift_register_reg[3]_i_1/O, cell running_leds0/shift_register_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning

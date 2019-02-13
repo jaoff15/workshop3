@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Mon Feb 11 16:34:26 2019
+| Date         : Wed Feb 13 12:16:37 2019
 | Host         : offersen-S550CB running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     5 |
-| Unused register locations in slices containing registers |    13 |
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    29 |
 +----------------------------------------------------------+-------+
 
 
@@ -34,10 +34,10 @@ Table of Contents
 +--------+--------------+
 | Fanout | Control Sets |
 +--------+--------------+
+|      1 |            2 |
 |      4 |            2 |
 |      7 |            1 |
-|      8 |            1 |
-|    16+ |            1 |
+|    16+ |            3 |
 +--------+--------------+
 
 
@@ -47,10 +47,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              51 |           13 |
+| No           | No                    | No                     |              49 |           14 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               0 |            0 |
+| No           | Yes                   | No                     |              64 |           16 |
+| Yes          | No                    | No                     |               2 |            2 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -59,14 +59,17 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+----------------------------------------+---------------+------------------+------------------+----------------+
-|              Clock Signal              | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+----------------------------------------+---------------+------------------+------------------+----------------+
-|  debounce_down/shift_register_reg[0]_0 |               |                  |                1 |              4 |
-|  debounce_up/CLK                       |               |                  |                1 |              4 |
-|  running_leds0/clock_flash             |               |                  |                2 |              7 |
-|  running_leds0/switches[3]             |               |                  |                2 |              8 |
-|  clock_125M_IBUF_BUFG                  |               |                  |                7 |             28 |
-+----------------------------------------+---------------+------------------+------------------+----------------+
++----------------------------------------+------------------------------+------------------------------------+------------------+----------------+
+|              Clock Signal              |         Enable Signal        |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++----------------------------------------+------------------------------+------------------------------------+------------------+----------------+
+|  clock_125M_IBUF_BUFG                  | debounce_down/shift_register |                                    |                1 |              1 |
+|  clock_125M_IBUF_BUFG                  | debounce_up/shift_register_0 |                                    |                1 |              1 |
+|  debounce_down/shift_register_reg[3]_0 |                              |                                    |                1 |              4 |
+|  debounce_up/shift_register_reg[3]_0   |                              |                                    |                2 |              4 |
+|  running_leds0/clock_flash             |                              |                                    |                2 |              7 |
+|  clock_125M_IBUF_BUFG                  |                              | debounce_down/prescaler[0]_i_1_n_0 |                8 |             32 |
+|  clock_125M_IBUF_BUFG                  |                              | debounce_up/clear                  |                8 |             32 |
+|  clock_125M_IBUF_BUFG                  |                              |                                    |                9 |             34 |
++----------------------------------------+------------------------------+------------------------------------+------------------+----------------+
 
 

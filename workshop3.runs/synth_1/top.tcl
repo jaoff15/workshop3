@@ -17,24 +17,23 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.cache/wt [current_project]
-set_property parent.project_path /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.xpr [current_project]
+set_property webtalk.parent_dir /home/offersen/Programs/vivadoprojects/workshop3/workshop3.cache/wt [current_project]
+set_property parent.project_path /home/offersen/Programs/vivadoprojects/workshop3/workshop3.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
-set_property ip_output_repo /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.cache/ip [current_project]
+set_property ip_output_repo /home/offersen/Programs/vivadoprojects/workshop3/workshop3.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.srcs/sources_1/new/debounce.vhd
-  /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.srcs/sources_1/new/level_shift.vhd
+  /home/offersen/Programs/vivadoprojects/workshop3/workshop3.srcs/sources_1/new/debounce.vhd
+  /home/offersen/Programs/vivadoprojects/workshop3/workshop3.srcs/sources_1/new/level_shift.vhd
   /home/offersen/Documents/SDU/Workshop/Workshop2/running_leds.vhd
-  /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.srcs/sources_1/new/top.vhd
+  /home/offersen/Programs/vivadoprojects/workshop3/workshop3.srcs/sources_1/new/top.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

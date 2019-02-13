@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Mon Feb 11 16:34:49 2019
+| Date         : Wed Feb 13 12:16:59 2019
 | Host         : offersen-S550CB running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_timing_summary -max_paths 10 -file top_timing_summary_routed.rpt -pb top_timing_summary_routed.pb -rpx top_timing_summary_routed.rpx -warn_on_violation
 | Design       : top
@@ -52,14 +52,6 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 8 register/latch pins with no clock driven by root clock pin: switches[0] (HIGH)
-
- There are 8 register/latch pins with no clock driven by root clock pin: switches[1] (HIGH)
-
- There are 8 register/latch pins with no clock driven by root clock pin: switches[2] (HIGH)
-
- There are 8 register/latch pins with no clock driven by root clock pin: switches[3] (HIGH)
-
  There are 4 register/latch pins with no clock driven by root clock pin: debounce_down/shift_register_reg[0]/Q (HIGH)
 
  There are 4 register/latch pins with no clock driven by root clock pin: debounce_down/shift_register_reg[1]/Q (HIGH)
@@ -92,37 +84,37 @@ Table of Contents
 
  There are 7 register/latch pins with no clock driven by root clock pin: level_shift0/counter_up_reg[3]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[10]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[10]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[11]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[11]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[12]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[12]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[13]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[13]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[14]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[14]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[15]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[15]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[16]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[16]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[17]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[17]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[18]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[18]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[19]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[19]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[20]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[20]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[21]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[21]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[22]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[22]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[23]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[23]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[24]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[24]/Q (HIGH)
 
- There are 15 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[9]/Q (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: running_leds0/prescaler_reg[9]/Q (HIGH)
 
 
 2. checking constant_clock
@@ -137,7 +129,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 23 pins that are not constrained for maximum delay. (HIGH)
+ There are 15 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
@@ -196,7 +188,7 @@ Table of Contents
 
     WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
     -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-      5.263        0.000                      0                   28        0.324        0.000                      0                   28        3.500        0.000                       0                    29  
+      3.282        0.000                      0                  164        0.214        0.000                      0                  164        3.500        0.000                       0                   101  
 
 
 All user specified timing constraints are met.
@@ -219,7 +211,7 @@ sys_clk_pin  {0.000 4.000}        8.000           125.000
 
 Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
 -----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-sys_clk_pin         5.263        0.000                      0                   28        0.324        0.000                      0                   28        3.500        0.000                       0                    29  
+sys_clk_pin         3.282        0.000                      0                  164        0.214        0.000                      0                  164        3.500        0.000                       0                   101  
 
 
 ------------------------------------------------------------------------------------------------
@@ -250,28 +242,28 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 From Clock:  sys_clk_pin
   To Clock:  sys_clk_pin
 
-Setup :            0  Failing Endpoints,  Worst Slack        5.263ns,  Total Violation        0.000ns
-Hold  :            0  Failing Endpoints,  Worst Slack        0.324ns,  Total Violation        0.000ns
+Setup :            0  Failing Endpoints,  Worst Slack        3.282ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.214ns,  Total Violation        0.000ns
 PW    :            0  Failing Endpoints,  Worst Slack        3.500ns,  Total Violation        0.000ns
 ---------------------------------------------------------------------------------------------------
 
 
 Max Delay Paths
 --------------------------------------------------------------------------------------
-Slack (MET) :             5.263ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.282ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[25]/D
+  Destination:            debounce_up/prescaler_reg[0]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.746ns  (logic 2.034ns (74.071%)  route 0.712ns (25.929%))
-  Logic Levels:           7  (CARRY4=7)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.135ns  (logic 0.890ns (21.523%)  route 3.245ns (78.476%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.024ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.428ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -287,33 +279,18 @@ Slack (MET) :             5.263ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.825 r  running_leds0/prescaler_reg[20]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.825    running_leds0/prescaler_reg[20]_i_1_n_0
-    SLICE_X40Y36         CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.334     8.159 r  running_leds0/prescaler_reg[24]_i_1/O[1]
-                         net (fo=1, routed)           0.000     8.159    running_leds0/prescaler_reg[24]_i_1_n_6
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[25]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.826     9.541    debounce_up/clear
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[0]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -323,31 +300,31 @@ Slack (MET) :             5.263ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[25]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y36         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[25]
+                         net (fo=100, routed)         1.563    12.954    debounce_up/CLK
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[0]/C
+                         clock pessimism              0.428    13.382    
+                         clock uncertainty           -0.035    13.347    
+    SLICE_X38Y52         FDRE (Setup_fdre_C_R)       -0.524    12.823    debounce_up/prescaler_reg[0]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.159    
+                         required time                         12.823    
+                         arrival time                          -9.541    
   -------------------------------------------------------------------
-                         slack                                  5.263    
+                         slack                                  3.282    
 
-Slack (MET) :             5.284ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.282ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[27]/D
+  Destination:            debounce_up/prescaler_reg[1]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.725ns  (logic 2.013ns (73.871%)  route 0.712ns (26.129%))
-  Logic Levels:           7  (CARRY4=7)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.135ns  (logic 0.890ns (21.523%)  route 3.245ns (78.476%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.024ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.428ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -363,33 +340,18 @@ Slack (MET) :             5.284ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.825 r  running_leds0/prescaler_reg[20]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.825    running_leds0/prescaler_reg[20]_i_1_n_0
-    SLICE_X40Y36         CARRY4 (Prop_carry4_CI_O[3])
-                                                      0.313     8.138 r  running_leds0/prescaler_reg[24]_i_1/O[3]
-                         net (fo=1, routed)           0.000     8.138    running_leds0/prescaler_reg[24]_i_1_n_4
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[27]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.826     9.541    debounce_up/clear
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[1]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -399,31 +361,31 @@ Slack (MET) :             5.284ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[27]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y36         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[27]
+                         net (fo=100, routed)         1.563    12.954    debounce_up/CLK
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[1]/C
+                         clock pessimism              0.428    13.382    
+                         clock uncertainty           -0.035    13.347    
+    SLICE_X38Y52         FDRE (Setup_fdre_C_R)       -0.524    12.823    debounce_up/prescaler_reg[1]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.138    
+                         required time                         12.823    
+                         arrival time                          -9.541    
   -------------------------------------------------------------------
-                         slack                                  5.284    
+                         slack                                  3.282    
 
-Slack (MET) :             5.358ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.282ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[26]/D
+  Destination:            debounce_up/prescaler_reg[2]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.651ns  (logic 1.939ns (73.142%)  route 0.712ns (26.858%))
-  Logic Levels:           7  (CARRY4=7)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.135ns  (logic 0.890ns (21.523%)  route 3.245ns (78.476%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.024ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.428ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -439,33 +401,18 @@ Slack (MET) :             5.358ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.825 r  running_leds0/prescaler_reg[20]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.825    running_leds0/prescaler_reg[20]_i_1_n_0
-    SLICE_X40Y36         CARRY4 (Prop_carry4_CI_O[2])
-                                                      0.239     8.064 r  running_leds0/prescaler_reg[24]_i_1/O[2]
-                         net (fo=1, routed)           0.000     8.064    running_leds0/prescaler_reg[24]_i_1_n_5
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[26]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.826     9.541    debounce_up/clear
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[2]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -475,31 +422,31 @@ Slack (MET) :             5.358ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[26]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y36         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[26]
+                         net (fo=100, routed)         1.563    12.954    debounce_up/CLK
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[2]/C
+                         clock pessimism              0.428    13.382    
+                         clock uncertainty           -0.035    13.347    
+    SLICE_X38Y52         FDRE (Setup_fdre_C_R)       -0.524    12.823    debounce_up/prescaler_reg[2]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.064    
+                         required time                         12.823    
+                         arrival time                          -9.541    
   -------------------------------------------------------------------
-                         slack                                  5.358    
+                         slack                                  3.282    
 
-Slack (MET) :             5.374ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.282ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[24]/D
+  Destination:            debounce_up/prescaler_reg[3]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.635ns  (logic 1.923ns (72.979%)  route 0.712ns (27.021%))
-  Logic Levels:           7  (CARRY4=7)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.135ns  (logic 0.890ns (21.523%)  route 3.245ns (78.476%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.024ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.428ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -515,33 +462,18 @@ Slack (MET) :             5.374ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.825 r  running_leds0/prescaler_reg[20]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.825    running_leds0/prescaler_reg[20]_i_1_n_0
-    SLICE_X40Y36         CARRY4 (Prop_carry4_CI_O[0])
-                                                      0.223     8.048 r  running_leds0/prescaler_reg[24]_i_1/O[0]
-                         net (fo=1, routed)           0.000     8.048    running_leds0/prescaler_reg[24]_i_1_n_7
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[24]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.826     9.541    debounce_up/clear
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[3]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -551,31 +483,31 @@ Slack (MET) :             5.374ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[24]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y36         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[24]
+                         net (fo=100, routed)         1.563    12.954    debounce_up/CLK
+    SLICE_X38Y52         FDRE                                         r  debounce_up/prescaler_reg[3]/C
+                         clock pessimism              0.428    13.382    
+                         clock uncertainty           -0.035    13.347    
+    SLICE_X38Y52         FDRE (Setup_fdre_C_R)       -0.524    12.823    debounce_up/prescaler_reg[3]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.048    
+                         required time                         12.823    
+                         arrival time                          -9.541    
   -------------------------------------------------------------------
-                         slack                                  5.374    
+                         slack                                  3.282    
 
-Slack (MET) :             5.377ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.301ns  (required time - arrival time)
+  Source:                 debounce_down/prescaler_reg[2]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[21]/D
+  Destination:            debounce_down/prescaler_reg[0]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.632ns  (logic 1.920ns (72.948%)  route 0.712ns (27.052%))
-  Logic Levels:           6  (CARRY4=6)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.234ns  (logic 1.058ns (24.985%)  route 3.176ns (75.015%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.407ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -591,30 +523,18 @@ Slack (MET) :             5.377ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.739     5.407    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.334     8.045 r  running_leds0/prescaler_reg[20]_i_1/O[1]
-                         net (fo=1, routed)           0.000     8.045    running_leds0/prescaler_reg[20]_i_1_n_6
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[21]/D
+    SLICE_X36Y52         FDRE (Prop_fdre_C_Q)         0.456     5.863 r  debounce_down/prescaler_reg[2]/Q
+                         net (fo=4, routed)           0.813     6.676    debounce_down/prescaler_reg[2]
+    SLICE_X39Y52         LUT3 (Prop_lut3_I2_O)        0.152     6.828 r  debounce_down/prescaler[0]_i_7/O
+                         net (fo=1, routed)           0.860     7.688    debounce_down/prescaler[0]_i_7_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I5_O)        0.326     8.014 r  debounce_down/prescaler[0]_i_4/O
+                         net (fo=1, routed)           0.536     8.550    debounce_down/prescaler[0]_i_4_n_0
+    SLICE_X37Y57         LUT6 (Prop_lut6_I2_O)        0.124     8.674 r  debounce_down/prescaler[0]_i_1/O
+                         net (fo=32, routed)          0.968     9.642    debounce_down/prescaler[0]_i_1_n_0
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[0]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -624,31 +544,31 @@ Slack (MET) :             5.377ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[21]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y35         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[21]
+                         net (fo=100, routed)         1.563    12.954    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[0]/C
+                         clock pessimism              0.453    13.407    
+                         clock uncertainty           -0.035    13.372    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_R)       -0.429    12.943    debounce_down/prescaler_reg[0]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.045    
+                         required time                         12.943    
+                         arrival time                          -9.642    
   -------------------------------------------------------------------
-                         slack                                  5.377    
+                         slack                                  3.301    
 
-Slack (MET) :             5.398ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.301ns  (required time - arrival time)
+  Source:                 debounce_down/prescaler_reg[2]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[23]/D
+  Destination:            debounce_down/prescaler_reg[1]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.611ns  (logic 1.899ns (72.730%)  route 0.712ns (27.269%))
-  Logic Levels:           6  (CARRY4=6)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.234ns  (logic 1.058ns (24.985%)  route 3.176ns (75.015%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.407ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -664,30 +584,18 @@ Slack (MET) :             5.398ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.739     5.407    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_O[3])
-                                                      0.313     8.024 r  running_leds0/prescaler_reg[20]_i_1/O[3]
-                         net (fo=1, routed)           0.000     8.024    running_leds0/prescaler_reg[20]_i_1_n_4
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[23]/D
+    SLICE_X36Y52         FDRE (Prop_fdre_C_Q)         0.456     5.863 r  debounce_down/prescaler_reg[2]/Q
+                         net (fo=4, routed)           0.813     6.676    debounce_down/prescaler_reg[2]
+    SLICE_X39Y52         LUT3 (Prop_lut3_I2_O)        0.152     6.828 r  debounce_down/prescaler[0]_i_7/O
+                         net (fo=1, routed)           0.860     7.688    debounce_down/prescaler[0]_i_7_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I5_O)        0.326     8.014 r  debounce_down/prescaler[0]_i_4/O
+                         net (fo=1, routed)           0.536     8.550    debounce_down/prescaler[0]_i_4_n_0
+    SLICE_X37Y57         LUT6 (Prop_lut6_I2_O)        0.124     8.674 r  debounce_down/prescaler[0]_i_1/O
+                         net (fo=32, routed)          0.968     9.642    debounce_down/prescaler[0]_i_1_n_0
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[1]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -697,31 +605,31 @@ Slack (MET) :             5.398ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[23]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y35         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[23]
+                         net (fo=100, routed)         1.563    12.954    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[1]/C
+                         clock pessimism              0.453    13.407    
+                         clock uncertainty           -0.035    13.372    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_R)       -0.429    12.943    debounce_down/prescaler_reg[1]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -8.024    
+                         required time                         12.943    
+                         arrival time                          -9.642    
   -------------------------------------------------------------------
-                         slack                                  5.398    
+                         slack                                  3.301    
 
-Slack (MET) :             5.472ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.301ns  (required time - arrival time)
+  Source:                 debounce_down/prescaler_reg[2]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[22]/D
+  Destination:            debounce_down/prescaler_reg[2]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.537ns  (logic 1.825ns (71.935%)  route 0.712ns (28.065%))
-  Logic Levels:           6  (CARRY4=6)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.234ns  (logic 1.058ns (24.985%)  route 3.176ns (75.015%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.407ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -737,30 +645,18 @@ Slack (MET) :             5.472ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.739     5.407    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_O[2])
-                                                      0.239     7.950 r  running_leds0/prescaler_reg[20]_i_1/O[2]
-                         net (fo=1, routed)           0.000     7.950    running_leds0/prescaler_reg[20]_i_1_n_5
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[22]/D
+    SLICE_X36Y52         FDRE (Prop_fdre_C_Q)         0.456     5.863 r  debounce_down/prescaler_reg[2]/Q
+                         net (fo=4, routed)           0.813     6.676    debounce_down/prescaler_reg[2]
+    SLICE_X39Y52         LUT3 (Prop_lut3_I2_O)        0.152     6.828 r  debounce_down/prescaler[0]_i_7/O
+                         net (fo=1, routed)           0.860     7.688    debounce_down/prescaler[0]_i_7_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I5_O)        0.326     8.014 r  debounce_down/prescaler[0]_i_4/O
+                         net (fo=1, routed)           0.536     8.550    debounce_down/prescaler[0]_i_4_n_0
+    SLICE_X37Y57         LUT6 (Prop_lut6_I2_O)        0.124     8.674 r  debounce_down/prescaler[0]_i_1/O
+                         net (fo=32, routed)          0.968     9.642    debounce_down/prescaler[0]_i_1_n_0
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -770,31 +666,31 @@ Slack (MET) :             5.472ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[22]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y35         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[22]
+                         net (fo=100, routed)         1.563    12.954    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/C
+                         clock pessimism              0.453    13.407    
+                         clock uncertainty           -0.035    13.372    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_R)       -0.429    12.943    debounce_down/prescaler_reg[2]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -7.950    
+                         required time                         12.943    
+                         arrival time                          -9.642    
   -------------------------------------------------------------------
-                         slack                                  5.472    
+                         slack                                  3.301    
 
-Slack (MET) :             5.488ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.301ns  (required time - arrival time)
+  Source:                 debounce_down/prescaler_reg[2]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[20]/D
+  Destination:            debounce_down/prescaler_reg[3]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.521ns  (logic 1.809ns (71.757%)  route 0.712ns (28.243%))
-  Logic Levels:           6  (CARRY4=6)
-  Clock Path Skew:        -0.018ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.966ns = ( 12.966 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.234ns  (logic 1.058ns (24.985%)  route 3.176ns (75.015%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.954ns = ( 12.954 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.407ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -810,30 +706,18 @@ Slack (MET) :             5.488ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.739     5.407    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[2]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.711 r  running_leds0/prescaler_reg[16]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.711    running_leds0/prescaler_reg[16]_i_1_n_0
-    SLICE_X40Y35         CARRY4 (Prop_carry4_CI_O[0])
-                                                      0.223     7.934 r  running_leds0/prescaler_reg[20]_i_1/O[0]
-                         net (fo=1, routed)           0.000     7.934    running_leds0/prescaler_reg[20]_i_1_n_7
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[20]/D
+    SLICE_X36Y52         FDRE (Prop_fdre_C_Q)         0.456     5.863 r  debounce_down/prescaler_reg[2]/Q
+                         net (fo=4, routed)           0.813     6.676    debounce_down/prescaler_reg[2]
+    SLICE_X39Y52         LUT3 (Prop_lut3_I2_O)        0.152     6.828 r  debounce_down/prescaler[0]_i_7/O
+                         net (fo=1, routed)           0.860     7.688    debounce_down/prescaler[0]_i_7_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I5_O)        0.326     8.014 r  debounce_down/prescaler[0]_i_4/O
+                         net (fo=1, routed)           0.536     8.550    debounce_down/prescaler[0]_i_4_n_0
+    SLICE_X37Y57         LUT6 (Prop_lut6_I2_O)        0.124     8.674 r  debounce_down/prescaler[0]_i_1/O
+                         net (fo=32, routed)          0.968     9.642    debounce_down/prescaler[0]_i_1_n_0
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[3]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -843,31 +727,31 @@ Slack (MET) :             5.488ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.574    12.966    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[20]/C
-                         clock pessimism              0.429    13.395    
-                         clock uncertainty           -0.035    13.360    
-    SLICE_X40Y35         FDRE (Setup_fdre_C_D)        0.062    13.422    running_leds0/prescaler_reg[20]
+                         net (fo=100, routed)         1.563    12.954    debounce_down/CLK
+    SLICE_X36Y52         FDRE                                         r  debounce_down/prescaler_reg[3]/C
+                         clock pessimism              0.453    13.407    
+                         clock uncertainty           -0.035    13.372    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_R)       -0.429    12.943    debounce_down/prescaler_reg[3]
   -------------------------------------------------------------------
-                         required time                         13.422    
-                         arrival time                          -7.934    
+                         required time                         12.943    
+                         arrival time                          -9.642    
   -------------------------------------------------------------------
-                         slack                                  5.488    
+                         slack                                  3.301    
 
-Slack (MET) :             5.490ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.309ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[17]/D
+  Destination:            debounce_up/prescaler_reg[4]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.518ns  (logic 1.806ns (71.723%)  route 0.712ns (28.277%))
-  Logic Levels:           5  (CARRY4=5)
-  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.965ns = ( 12.965 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.132ns  (logic 0.890ns (21.540%)  route 3.242ns (78.460%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.953ns = ( 12.953 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -883,27 +767,18 @@ Slack (MET) :             5.490ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.334     7.931 r  running_leds0/prescaler_reg[16]_i_1/O[1]
-                         net (fo=1, routed)           0.000     7.931    running_leds0/prescaler_reg[16]_i_1_n_6
-    SLICE_X40Y34         FDRE                                         r  running_leds0/prescaler_reg[17]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.822     9.538    debounce_up/clear
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[4]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -913,31 +788,31 @@ Slack (MET) :             5.490ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.573    12.965    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y34         FDRE                                         r  running_leds0/prescaler_reg[17]/C
-                         clock pessimism              0.429    13.394    
-                         clock uncertainty           -0.035    13.359    
-    SLICE_X40Y34         FDRE (Setup_fdre_C_D)        0.062    13.421    running_leds0/prescaler_reg[17]
+                         net (fo=100, routed)         1.562    12.953    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[4]/C
+                         clock pessimism              0.453    13.406    
+                         clock uncertainty           -0.035    13.371    
+    SLICE_X38Y53         FDRE (Setup_fdre_C_R)       -0.524    12.847    debounce_up/prescaler_reg[4]
   -------------------------------------------------------------------
-                         required time                         13.421    
-                         arrival time                          -7.931    
+                         required time                         12.847    
+                         arrival time                          -9.538    
   -------------------------------------------------------------------
-                         slack                                  5.490    
+                         slack                                  3.309    
 
-Slack (MET) :             5.511ns  (required time - arrival time)
-  Source:                 running_leds0/prescaler_reg[1]/C
+Slack (MET) :             3.309ns  (required time - arrival time)
+  Source:                 debounce_up/prescaler_reg[5]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[19]/D
+  Destination:            debounce_up/prescaler_reg[5]/R
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            8.000ns  (sys_clk_pin rise@8.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        2.497ns  (logic 1.785ns (71.486%)  route 0.712ns (28.514%))
-  Logic Levels:           5  (CARRY4=5)
-  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    4.965ns = ( 12.965 - 8.000 ) 
-    Source Clock Delay      (SCD):    5.413ns
-    Clock Pessimism Removal (CPR):    0.429ns
+  Data Path Delay:        4.132ns  (logic 0.890ns (21.540%)  route 3.242ns (78.460%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        0.000ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.953ns = ( 12.953 - 8.000 ) 
+    Source Clock Delay      (SCD):    5.406ns
+    Clock Pessimism Removal (CPR):    0.453ns
   Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Total Input Jitter      (TIJ):    0.000ns
@@ -953,27 +828,18 @@ Slack (MET) :             5.511ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.491     1.491 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           2.076     3.567    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     3.668 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.745     5.413    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
+                         net (fo=100, routed)         1.738     5.406    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.456     5.869 r  running_leds0/prescaler_reg[1]/Q
-                         net (fo=1, routed)           0.712     6.581    running_leds0/prescaler_reg_n_0_[1]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[1]_CO[3])
-                                                      0.674     7.255 r  running_leds0/prescaler_reg[0]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.255    running_leds0/prescaler_reg[0]_i_1_n_0
-    SLICE_X40Y31         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.369 r  running_leds0/prescaler_reg[4]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.369    running_leds0/prescaler_reg[4]_i_1_n_0
-    SLICE_X40Y32         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.483 r  running_leds0/prescaler_reg[8]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.483    running_leds0/prescaler_reg[8]_i_1_n_0
-    SLICE_X40Y33         CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.114     7.597 r  running_leds0/prescaler_reg[12]_i_1/CO[3]
-                         net (fo=1, routed)           0.000     7.597    running_leds0/prescaler_reg[12]_i_1_n_0
-    SLICE_X40Y34         CARRY4 (Prop_carry4_CI_O[3])
-                                                      0.313     7.910 r  running_leds0/prescaler_reg[16]_i_1/O[3]
-                         net (fo=1, routed)           0.000     7.910    running_leds0/prescaler_reg[16]_i_1_n_4
-    SLICE_X40Y34         FDRE                                         r  running_leds0/prescaler_reg[19]/D
+    SLICE_X38Y53         FDRE (Prop_fdre_C_Q)         0.518     5.924 r  debounce_up/prescaler_reg[5]/Q
+                         net (fo=2, routed)           1.120     7.045    debounce_up/prescaler_reg[5]
+    SLICE_X39Y53         LUT4 (Prop_lut4_I0_O)        0.124     7.169 f  debounce_up/shift_register[3]_i_4__0/O
+                         net (fo=3, routed)           0.724     7.893    debounce_up/shift_register[3]_i_4__0_n_0
+    SLICE_X39Y55         LUT6 (Prop_lut6_I4_O)        0.124     8.017 r  debounce_up/prescaler[0]_i_3__0/O
+                         net (fo=1, routed)           0.575     8.592    debounce_up/prescaler[0]_i_3__0_n_0
+    SLICE_X39Y57         LUT6 (Prop_lut6_I0_O)        0.124     8.716 r  debounce_up/prescaler[0]_i_1__0/O
+                         net (fo=32, routed)          0.822     9.538    debounce_up/clear
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/R
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -983,16 +849,16 @@ Slack (MET) :             5.511ns  (required time - arrival time)
     L16                  IBUF (Prop_ibuf_I_O)         1.421     9.421 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           1.880    11.301    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    11.392 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          1.573    12.965    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y34         FDRE                                         r  running_leds0/prescaler_reg[19]/C
-                         clock pessimism              0.429    13.394    
-                         clock uncertainty           -0.035    13.359    
-    SLICE_X40Y34         FDRE (Setup_fdre_C_D)        0.062    13.421    running_leds0/prescaler_reg[19]
+                         net (fo=100, routed)         1.562    12.953    debounce_up/CLK
+    SLICE_X38Y53         FDRE                                         r  debounce_up/prescaler_reg[5]/C
+                         clock pessimism              0.453    13.406    
+                         clock uncertainty           -0.035    13.371    
+    SLICE_X38Y53         FDRE (Setup_fdre_C_R)       -0.524    12.847    debounce_up/prescaler_reg[5]
   -------------------------------------------------------------------
-                         required time                         13.421    
-                         arrival time                          -7.910    
+                         required time                         12.847    
+                         arrival time                          -9.538    
   -------------------------------------------------------------------
-                         slack                                  5.511    
+                         slack                                  3.309    
 
 
 
@@ -1000,20 +866,20 @@ Slack (MET) :             5.511ns  (required time - arrival time)
 
 Min Delay Paths
 --------------------------------------------------------------------------------------
-Slack (MET) :             0.324ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[0]/C
+Slack (MET) :             0.214ns  (arrival time - required time)
+  Source:                 debounce_down/shift_register_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[0]/D
+  Destination:            debounce_down/shift_register_reg[0]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Hold (Min at Fast Process Corner)
   Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.429ns  (logic 0.256ns (59.730%)  route 0.173ns (40.270%))
-  Logic Levels:           2  (CARRY4=1 LUT1=1)
+  Data Path Delay:        0.306ns  (logic 0.186ns (60.688%)  route 0.120ns (39.312%))
+  Logic Levels:           1  (LUT5=1)
   Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.012ns
-    Source Clock Delay      (SCD):    1.498ns
-    Clock Pessimism Removal (CPR):    0.514ns
+    Destination Clock Delay (DCD):    1.988ns
+    Source Clock Delay      (SCD):    1.471ns
+    Clock Pessimism Removal (CPR):    0.517ns
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
@@ -1024,17 +890,14 @@ Slack (MET) :             0.324ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.586     1.498    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[0]/C
+                         net (fo=100, routed)         0.559     1.471    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.141     1.639 f  running_leds0/prescaler_reg[0]/Q
-                         net (fo=1, routed)           0.173     1.811    running_leds0/prescaler_reg_n_0_[0]
-    SLICE_X40Y30         LUT1 (Prop_lut1_I0_O)        0.045     1.856 r  running_leds0/prescaler[0]_i_2/O
-                         net (fo=1, routed)           0.000     1.856    running_leds0/prescaler[0]_i_2_n_0
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[0]_O[0])
-                                                      0.070     1.926 r  running_leds0/prescaler_reg[0]_i_1/O[0]
-                         net (fo=1, routed)           0.000     1.926    running_leds0/prescaler_reg[0]_i_1_n_7
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[0]/D
+    SLICE_X35Y54         FDRE (Prop_fdre_C_Q)         0.141     1.612 r  debounce_down/shift_register_reg[0]/Q
+                         net (fo=2, routed)           0.120     1.732    debounce_down/shift_register_reg_n_0_[0]
+    SLICE_X35Y54         LUT5 (Prop_lut5_I4_O)        0.045     1.777 r  debounce_down/shift_register[0]_i_1/O
+                         net (fo=1, routed)           0.000     1.777    debounce_down/shift_register[0]_i_1_n_0
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[0]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -1044,17 +907,119 @@ Slack (MET) :             0.324ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.853     2.012    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[0]/C
-                         clock pessimism             -0.514     1.498    
-    SLICE_X40Y30         FDRE (Hold_fdre_C_D)         0.105     1.603    running_leds0/prescaler_reg[0]
+                         net (fo=100, routed)         0.829     1.988    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[0]/C
+                         clock pessimism             -0.517     1.471    
+    SLICE_X35Y54         FDRE (Hold_fdre_C_D)         0.092     1.563    debounce_down/shift_register_reg[0]
   -------------------------------------------------------------------
-                         required time                         -1.603    
-                         arrival time                           1.926    
+                         required time                         -1.563    
+                         arrival time                           1.777    
   -------------------------------------------------------------------
-                         slack                                  0.324    
+                         slack                                  0.214    
 
-Slack (MET) :             0.327ns  (arrival time - required time)
+Slack (MET) :             0.227ns  (arrival time - required time)
+  Source:                 debounce_down/shift_register_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            debounce_down/shift_register_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.319ns  (logic 0.186ns (58.245%)  route 0.133ns (41.755%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.988ns
+    Source Clock Delay      (SCD):    1.471ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.559     1.471    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y54         FDRE (Prop_fdre_C_Q)         0.141     1.612 r  debounce_down/shift_register_reg[2]/Q
+                         net (fo=3, routed)           0.133     1.745    debounce_down/shift_register_reg_n_0_[2]
+    SLICE_X35Y54         LUT5 (Prop_lut5_I4_O)        0.045     1.790 r  debounce_down/shift_register[2]_i_1/O
+                         net (fo=1, routed)           0.000     1.790    debounce_down/shift_register[2]_i_1_n_0
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.829     1.988    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[2]/C
+                         clock pessimism             -0.517     1.471    
+    SLICE_X35Y54         FDRE (Hold_fdre_C_D)         0.092     1.563    debounce_down/shift_register_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -1.563    
+                         arrival time                           1.790    
+  -------------------------------------------------------------------
+                         slack                                  0.227    
+
+Slack (MET) :             0.229ns  (arrival time - required time)
+  Source:                 debounce_down/shift_register_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            debounce_down/shift_register_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.320ns  (logic 0.186ns (58.063%)  route 0.134ns (41.937%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.988ns
+    Source Clock Delay      (SCD):    1.471ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.559     1.471    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y54         FDRE (Prop_fdre_C_Q)         0.141     1.612 r  debounce_down/shift_register_reg[2]/Q
+                         net (fo=3, routed)           0.134     1.746    debounce_down/shift_register_reg_n_0_[2]
+    SLICE_X35Y54         LUT5 (Prop_lut5_I0_O)        0.045     1.791 r  debounce_down/shift_register[1]_i_1/O
+                         net (fo=1, routed)           0.000     1.791    debounce_down/shift_register[1]_i_1_n_0
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.829     1.988    debounce_down/CLK
+    SLICE_X35Y54         FDRE                                         r  debounce_down/shift_register_reg[1]/C
+                         clock pessimism             -0.517     1.471    
+    SLICE_X35Y54         FDRE (Hold_fdre_C_D)         0.091     1.562    debounce_down/shift_register_reg[1]
+  -------------------------------------------------------------------
+                         required time                         -1.562    
+                         arrival time                           1.791    
+  -------------------------------------------------------------------
+                         slack                                  0.229    
+
+Slack (MET) :             0.252ns  (arrival time - required time)
   Source:                 running_leds0/prescaler_reg[3]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Destination:            running_leds0/prescaler_reg[3]/D
@@ -1062,12 +1027,12 @@ Slack (MET) :             0.327ns  (arrival time - required time)
   Path Group:             sys_clk_pin
   Path Type:              Hold (Min at Fast Process Corner)
   Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.432ns  (logic 0.249ns (57.658%)  route 0.183ns (42.342%))
+  Data Path Delay:        0.357ns  (logic 0.249ns (69.714%)  route 0.108ns (30.286%))
   Logic Levels:           1  (CARRY4=1)
   Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.012ns
-    Source Clock Delay      (SCD):    1.498ns
-    Clock Pessimism Removal (CPR):    0.514ns
+    Destination Clock Delay (DCD):    2.016ns
+    Source Clock Delay      (SCD):    1.499ns
+    Clock Pessimism Removal (CPR):    0.517ns
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
@@ -1078,15 +1043,15 @@ Slack (MET) :             0.327ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.586     1.498    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[3]/C
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[3]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.141     1.639 r  running_leds0/prescaler_reg[3]/Q
-                         net (fo=1, routed)           0.183     1.822    running_leds0/prescaler_reg_n_0_[3]
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[3]_O[3])
-                                                      0.108     1.930 r  running_leds0/prescaler_reg[0]_i_1/O[3]
-                         net (fo=1, routed)           0.000     1.930    running_leds0/prescaler_reg[0]_i_1_n_4
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[3]/D
+    SLICE_X37Y50         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[3]/Q
+                         net (fo=1, routed)           0.108     1.748    running_leds0/prescaler_reg_n_0_[3]
+    SLICE_X37Y50         CARRY4 (Prop_carry4_S[3]_O[3])
+                                                      0.108     1.856 r  running_leds0/prescaler_reg[0]_i_1/O[3]
+                         net (fo=1, routed)           0.000     1.856    running_leds0/prescaler_reg[0]_i_1_n_4
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[3]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -1096,17 +1061,69 @@ Slack (MET) :             0.327ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.853     2.012    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[3]/C
-                         clock pessimism             -0.514     1.498    
-    SLICE_X40Y30         FDRE (Hold_fdre_C_D)         0.105     1.603    running_leds0/prescaler_reg[3]
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[3]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y50         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[3]
   -------------------------------------------------------------------
-                         required time                         -1.603    
-                         arrival time                           1.930    
+                         required time                         -1.604    
+                         arrival time                           1.856    
   -------------------------------------------------------------------
-                         slack                                  0.327    
+                         slack                                  0.252    
 
-Slack (MET) :             0.327ns  (arrival time - required time)
+Slack (MET) :             0.252ns  (arrival time - required time)
+  Source:                 running_leds0/prescaler_reg[7]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            running_leds0/prescaler_reg[7]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.357ns  (logic 0.249ns (69.714%)  route 0.108ns (30.286%))
+  Logic Levels:           1  (CARRY4=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.016ns
+    Source Clock Delay      (SCD):    1.499ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y51         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[7]/Q
+                         net (fo=1, routed)           0.108     1.748    running_leds0/prescaler_reg_n_0_[7]
+    SLICE_X37Y51         CARRY4 (Prop_carry4_S[3]_O[3])
+                                                      0.108     1.856 r  running_leds0/prescaler_reg[4]_i_1/O[3]
+                         net (fo=1, routed)           0.000     1.856    running_leds0/prescaler_reg[4]_i_1_n_4
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[7]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y51         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[7]
+  -------------------------------------------------------------------
+                         required time                         -1.604    
+                         arrival time                           1.856    
+  -------------------------------------------------------------------
+                         slack                                  0.252    
+
+Slack (MET) :             0.256ns  (arrival time - required time)
   Source:                 running_leds0/prescaler_reg[4]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Destination:            running_leds0/prescaler_reg[4]/D
@@ -1114,12 +1131,12 @@ Slack (MET) :             0.327ns  (arrival time - required time)
   Path Group:             sys_clk_pin
   Path Type:              Hold (Min at Fast Process Corner)
   Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.432ns  (logic 0.256ns (59.199%)  route 0.176ns (40.801%))
+  Data Path Delay:        0.361ns  (logic 0.256ns (70.880%)  route 0.105ns (29.120%))
   Logic Levels:           1  (CARRY4=1)
   Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.013ns
+    Destination Clock Delay (DCD):    2.016ns
     Source Clock Delay      (SCD):    1.499ns
-    Clock Pessimism Removal (CPR):    0.514ns
+    Clock Pessimism Removal (CPR):    0.517ns
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
@@ -1130,15 +1147,15 @@ Slack (MET) :             0.327ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.587     1.499    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[4]/C
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[4]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y31         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[4]/Q
-                         net (fo=1, routed)           0.176     1.816    running_leds0/prescaler_reg_n_0_[4]
-    SLICE_X40Y31         CARRY4 (Prop_carry4_S[0]_O[0])
-                                                      0.115     1.931 r  running_leds0/prescaler_reg[4]_i_1/O[0]
-                         net (fo=1, routed)           0.000     1.931    running_leds0/prescaler_reg[4]_i_1_n_7
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[4]/D
+    SLICE_X37Y51         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[4]/Q
+                         net (fo=1, routed)           0.105     1.745    running_leds0/prescaler_reg_n_0_[4]
+    SLICE_X37Y51         CARRY4 (Prop_carry4_S[0]_O[0])
+                                                      0.115     1.860 r  running_leds0/prescaler_reg[4]_i_1/O[0]
+                         net (fo=1, routed)           0.000     1.860    running_leds0/prescaler_reg[4]_i_1_n_7
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[4]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -1148,134 +1165,186 @@ Slack (MET) :             0.327ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.854     2.013    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[4]/C
-                         clock pessimism             -0.514     1.499    
-    SLICE_X40Y31         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[4]
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[4]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y51         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[4]
   -------------------------------------------------------------------
                          required time                         -1.604    
-                         arrival time                           1.931    
+                         arrival time                           1.860    
   -------------------------------------------------------------------
-                         slack                                  0.327    
+                         slack                                  0.256    
 
-Slack (MET) :             0.331ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[27]/C
+Slack (MET) :             0.256ns  (arrival time - required time)
+  Source:                 running_leds0/prescaler_reg[8]/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[27]/D
+  Destination:            running_leds0/prescaler_reg[8]/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Hold (Min at Fast Process Corner)
   Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.436ns  (logic 0.249ns (57.166%)  route 0.187ns (42.834%))
+  Data Path Delay:        0.361ns  (logic 0.256ns (70.880%)  route 0.105ns (29.120%))
   Logic Levels:           1  (CARRY4=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.016ns
+    Source Clock Delay      (SCD):    1.499ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y52         FDRE                                         r  running_leds0/prescaler_reg[8]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y52         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[8]/Q
+                         net (fo=1, routed)           0.105     1.745    running_leds0/prescaler_reg_n_0_[8]
+    SLICE_X37Y52         CARRY4 (Prop_carry4_S[0]_O[0])
+                                                      0.115     1.860 r  running_leds0/prescaler_reg[8]_i_1/O[0]
+                         net (fo=1, routed)           0.000     1.860    running_leds0/prescaler_reg[8]_i_1_n_7
+    SLICE_X37Y52         FDRE                                         r  running_leds0/prescaler_reg[8]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y52         FDRE                                         r  running_leds0/prescaler_reg[8]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y52         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[8]
+  -------------------------------------------------------------------
+                         required time                         -1.604    
+                         arrival time                           1.860    
+  -------------------------------------------------------------------
+                         slack                                  0.256    
+
+Slack (MET) :             0.256ns  (arrival time - required time)
+  Source:                 running_leds0/prescaler_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            running_leds0/prescaler_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.361ns  (logic 0.252ns (69.733%)  route 0.109ns (30.267%))
+  Logic Levels:           1  (CARRY4=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.016ns
+    Source Clock Delay      (SCD):    1.499ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y50         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[2]/Q
+                         net (fo=1, routed)           0.109     1.749    running_leds0/prescaler_reg_n_0_[2]
+    SLICE_X37Y50         CARRY4 (Prop_carry4_S[2]_O[2])
+                                                      0.111     1.860 r  running_leds0/prescaler_reg[0]_i_1/O[2]
+                         net (fo=1, routed)           0.000     1.860    running_leds0/prescaler_reg[0]_i_1_n_5
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y50         FDRE                                         r  running_leds0/prescaler_reg[2]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y50         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -1.604    
+                         arrival time                           1.860    
+  -------------------------------------------------------------------
+                         slack                                  0.256    
+
+Slack (MET) :             0.256ns  (arrival time - required time)
+  Source:                 running_leds0/prescaler_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            running_leds0/prescaler_reg[6]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.361ns  (logic 0.252ns (69.733%)  route 0.109ns (30.267%))
+  Logic Levels:           1  (CARRY4=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.016ns
+    Source Clock Delay      (SCD):    1.499ns
+    Clock Pessimism Removal (CPR):    0.517ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.587     1.499    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y51         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[6]/Q
+                         net (fo=1, routed)           0.109     1.749    running_leds0/prescaler_reg_n_0_[6]
+    SLICE_X37Y51         CARRY4 (Prop_carry4_S[2]_O[2])
+                                                      0.111     1.860 r  running_leds0/prescaler_reg[4]_i_1/O[2]
+                         net (fo=1, routed)           0.000     1.860    running_leds0/prescaler_reg[4]_i_1_n_5
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[6]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    L16                                               0.000     0.000 r  clock_125M (IN)
+                         net (fo=0)                   0.000     0.000    clock_125M
+    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
+                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
+                         net (fo=100, routed)         0.857     2.016    running_leds0/CLK
+    SLICE_X37Y51         FDRE                                         r  running_leds0/prescaler_reg[6]/C
+                         clock pessimism             -0.517     1.499    
+    SLICE_X37Y51         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[6]
+  -------------------------------------------------------------------
+                         required time                         -1.604    
+                         arrival time                           1.860    
+  -------------------------------------------------------------------
+                         slack                                  0.256    
+
+Slack (MET) :             0.259ns  (arrival time - required time)
+  Source:                 debounce_up/shift_register_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            debounce_up/shift_register_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.351ns  (logic 0.186ns (52.940%)  route 0.165ns (47.060%))
+  Logic Levels:           1  (LUT5=1)
   Clock Path Skew:        0.000ns (DCD - SCD - CPR)
     Destination Clock Delay (DCD):    2.017ns
-    Source Clock Delay      (SCD):    1.502ns
-    Clock Pessimism Removal (CPR):    0.515ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.590     1.502    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[27]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y36         FDRE (Prop_fdre_C_Q)         0.141     1.643 r  running_leds0/prescaler_reg[27]/Q
-                         net (fo=2, routed)           0.187     1.829    running_leds0/prescaler_reg_n_0_[27]
-    SLICE_X40Y36         CARRY4 (Prop_carry4_S[3]_O[3])
-                                                      0.108     1.937 r  running_leds0/prescaler_reg[24]_i_1/O[3]
-                         net (fo=1, routed)           0.000     1.937    running_leds0/prescaler_reg[24]_i_1_n_4
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[27]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.858     2.017    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[27]/C
-                         clock pessimism             -0.515     1.502    
-    SLICE_X40Y36         FDRE (Hold_fdre_C_D)         0.105     1.607    running_leds0/prescaler_reg[27]
-  -------------------------------------------------------------------
-                         required time                         -1.607    
-                         arrival time                           1.937    
-  -------------------------------------------------------------------
-                         slack                                  0.331    
-
-Slack (MET) :             0.339ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[15]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[15]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.444ns  (logic 0.249ns (56.074%)  route 0.195ns (43.926%))
-  Logic Levels:           1  (CARRY4=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.015ns
-    Source Clock Delay      (SCD):    1.501ns
-    Clock Pessimism Removal (CPR):    0.514ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.589     1.501    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y33         FDRE                                         r  running_leds0/prescaler_reg[15]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y33         FDRE (Prop_fdre_C_Q)         0.141     1.642 r  running_leds0/prescaler_reg[15]/Q
-                         net (fo=4, routed)           0.195     1.837    running_leds0/data9
-    SLICE_X40Y33         CARRY4 (Prop_carry4_S[3]_O[3])
-                                                      0.108     1.945 r  running_leds0/prescaler_reg[12]_i_1/O[3]
-                         net (fo=1, routed)           0.000     1.945    running_leds0/prescaler_reg[12]_i_1_n_4
-    SLICE_X40Y33         FDRE                                         r  running_leds0/prescaler_reg[15]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.856     2.015    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y33         FDRE                                         r  running_leds0/prescaler_reg[15]/C
-                         clock pessimism             -0.514     1.501    
-    SLICE_X40Y33         FDRE (Hold_fdre_C_D)         0.105     1.606    running_leds0/prescaler_reg[15]
-  -------------------------------------------------------------------
-                         required time                         -1.606    
-                         arrival time                           1.945    
-  -------------------------------------------------------------------
-                         slack                                  0.339    
-
-Slack (MET) :             0.341ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[11]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[11]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.446ns  (logic 0.249ns (55.850%)  route 0.197ns (44.150%))
-  Logic Levels:           1  (CARRY4=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.014ns
     Source Clock Delay      (SCD):    1.500ns
-    Clock Pessimism Removal (CPR):    0.514ns
+    Clock Pessimism Removal (CPR):    0.517ns
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
@@ -1286,67 +1355,14 @@ Slack (MET) :             0.341ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.588     1.500    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y32         FDRE                                         r  running_leds0/prescaler_reg[11]/C
+                         net (fo=100, routed)         0.588     1.500    debounce_up/CLK
+    SLICE_X41Y53         FDRE                                         r  debounce_up/shift_register_reg[2]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X40Y32         FDRE (Prop_fdre_C_Q)         0.141     1.641 r  running_leds0/prescaler_reg[11]/Q
-                         net (fo=3, routed)           0.197     1.838    running_leds0/data13
-    SLICE_X40Y32         CARRY4 (Prop_carry4_S[3]_O[3])
-                                                      0.108     1.946 r  running_leds0/prescaler_reg[8]_i_1/O[3]
-                         net (fo=1, routed)           0.000     1.946    running_leds0/prescaler_reg[8]_i_1_n_4
-    SLICE_X40Y32         FDRE                                         r  running_leds0/prescaler_reg[11]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.855     2.014    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y32         FDRE                                         r  running_leds0/prescaler_reg[11]/C
-                         clock pessimism             -0.514     1.500    
-    SLICE_X40Y32         FDRE (Hold_fdre_C_D)         0.105     1.605    running_leds0/prescaler_reg[11]
-  -------------------------------------------------------------------
-                         required time                         -1.605    
-                         arrival time                           1.946    
-  -------------------------------------------------------------------
-                         slack                                  0.341    
-
-Slack (MET) :             0.349ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[23]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[23]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.454ns  (logic 0.249ns (54.882%)  route 0.205ns (45.118%))
-  Logic Levels:           1  (CARRY4=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.017ns
-    Source Clock Delay      (SCD):    1.502ns
-    Clock Pessimism Removal (CPR):    0.515ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.590     1.502    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[23]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y35         FDRE (Prop_fdre_C_Q)         0.141     1.643 r  running_leds0/prescaler_reg[23]/Q
-                         net (fo=4, routed)           0.205     1.847    running_leds0/data1
-    SLICE_X40Y35         CARRY4 (Prop_carry4_S[3]_O[3])
-                                                      0.108     1.955 r  running_leds0/prescaler_reg[20]_i_1/O[3]
-                         net (fo=1, routed)           0.000     1.955    running_leds0/prescaler_reg[20]_i_1_n_4
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[23]/D
+    SLICE_X41Y53         FDRE (Prop_fdre_C_Q)         0.141     1.641 r  debounce_up/shift_register_reg[2]/Q
+                         net (fo=3, routed)           0.165     1.806    debounce_up/shift_register[2]
+    SLICE_X41Y53         LUT5 (Prop_lut5_I4_O)        0.045     1.851 r  debounce_up/shift_register[2]_i_1/O
+                         net (fo=1, routed)           0.000     1.851    debounce_up/shift_register[2]_i_1_n_0
+    SLICE_X41Y53         FDRE                                         r  debounce_up/shift_register_reg[2]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -1356,173 +1372,15 @@ Slack (MET) :             0.349ns  (arrival time - required time)
     L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
                          net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
     BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.858     2.017    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y35         FDRE                                         r  running_leds0/prescaler_reg[23]/C
-                         clock pessimism             -0.515     1.502    
-    SLICE_X40Y35         FDRE (Hold_fdre_C_D)         0.105     1.607    running_leds0/prescaler_reg[23]
+                         net (fo=100, routed)         0.858     2.017    debounce_up/CLK
+    SLICE_X41Y53         FDRE                                         r  debounce_up/shift_register_reg[2]/C
+                         clock pessimism             -0.517     1.500    
+    SLICE_X41Y53         FDRE (Hold_fdre_C_D)         0.092     1.592    debounce_up/shift_register_reg[2]
   -------------------------------------------------------------------
-                         required time                         -1.607    
-                         arrival time                           1.955    
+                         required time                         -1.592    
+                         arrival time                           1.851    
   -------------------------------------------------------------------
-                         slack                                  0.349    
-
-Slack (MET) :             0.352ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[24]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[24]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.457ns  (logic 0.256ns (56.045%)  route 0.201ns (43.955%))
-  Logic Levels:           1  (CARRY4=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.017ns
-    Source Clock Delay      (SCD):    1.502ns
-    Clock Pessimism Removal (CPR):    0.515ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.590     1.502    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[24]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y36         FDRE (Prop_fdre_C_Q)         0.141     1.643 r  running_leds0/prescaler_reg[24]/Q
-                         net (fo=4, routed)           0.201     1.844    running_leds0/data0
-    SLICE_X40Y36         CARRY4 (Prop_carry4_S[0]_O[0])
-                                                      0.115     1.959 r  running_leds0/prescaler_reg[24]_i_1/O[0]
-                         net (fo=1, routed)           0.000     1.959    running_leds0/prescaler_reg[24]_i_1_n_7
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[24]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.858     2.017    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y36         FDRE                                         r  running_leds0/prescaler_reg[24]/C
-                         clock pessimism             -0.515     1.502    
-    SLICE_X40Y36         FDRE (Hold_fdre_C_D)         0.105     1.607    running_leds0/prescaler_reg[24]
-  -------------------------------------------------------------------
-                         required time                         -1.607    
-                         arrival time                           1.959    
-  -------------------------------------------------------------------
-                         slack                                  0.352    
-
-Slack (MET) :             0.360ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[0]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[1]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.465ns  (logic 0.292ns (62.850%)  route 0.173ns (37.150%))
-  Logic Levels:           2  (CARRY4=1 LUT1=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.012ns
-    Source Clock Delay      (SCD):    1.498ns
-    Clock Pessimism Removal (CPR):    0.514ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.586     1.498    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[0]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y30         FDRE (Prop_fdre_C_Q)         0.141     1.639 f  running_leds0/prescaler_reg[0]/Q
-                         net (fo=1, routed)           0.173     1.811    running_leds0/prescaler_reg_n_0_[0]
-    SLICE_X40Y30         LUT1 (Prop_lut1_I0_O)        0.045     1.856 r  running_leds0/prescaler[0]_i_2/O
-                         net (fo=1, routed)           0.000     1.856    running_leds0/prescaler[0]_i_2_n_0
-    SLICE_X40Y30         CARRY4 (Prop_carry4_S[0]_O[1])
-                                                      0.106     1.962 r  running_leds0/prescaler_reg[0]_i_1/O[1]
-                         net (fo=1, routed)           0.000     1.962    running_leds0/prescaler_reg[0]_i_1_n_6
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.853     2.012    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y30         FDRE                                         r  running_leds0/prescaler_reg[1]/C
-                         clock pessimism             -0.514     1.498    
-    SLICE_X40Y30         FDRE (Hold_fdre_C_D)         0.105     1.603    running_leds0/prescaler_reg[1]
-  -------------------------------------------------------------------
-                         required time                         -1.603    
-                         arrival time                           1.962    
-  -------------------------------------------------------------------
-                         slack                                  0.360    
-
-Slack (MET) :             0.363ns  (arrival time - required time)
-  Source:                 running_leds0/prescaler_reg[4]/C
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Destination:            running_leds0/prescaler_reg[5]/D
-                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@4.000ns period=8.000ns})
-  Path Group:             sys_clk_pin
-  Path Type:              Hold (Min at Fast Process Corner)
-  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
-  Data Path Delay:        0.468ns  (logic 0.292ns (62.334%)  route 0.176ns (37.666%))
-  Logic Levels:           1  (CARRY4=1)
-  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
-    Destination Clock Delay (DCD):    2.013ns
-    Source Clock Delay      (SCD):    1.499ns
-    Clock Pessimism Removal (CPR):    0.514ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.259     0.259 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.627     0.886    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.912 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.587     1.499    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[4]/C
-  -------------------------------------------------------------------    -------------------
-    SLICE_X40Y31         FDRE (Prop_fdre_C_Q)         0.141     1.640 r  running_leds0/prescaler_reg[4]/Q
-                         net (fo=1, routed)           0.176     1.816    running_leds0/prescaler_reg_n_0_[4]
-    SLICE_X40Y31         CARRY4 (Prop_carry4_S[0]_O[1])
-                                                      0.151     1.967 r  running_leds0/prescaler_reg[4]_i_1/O[1]
-                         net (fo=1, routed)           0.000     1.967    running_leds0/prescaler_reg[4]_i_1_n_6
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[5]/D
-  -------------------------------------------------------------------    -------------------
-
-                         (clock sys_clk_pin rise edge)
-                                                      0.000     0.000 r  
-    L16                                               0.000     0.000 r  clock_125M (IN)
-                         net (fo=0)                   0.000     0.000    clock_125M
-    L16                  IBUF (Prop_ibuf_I_O)         0.447     0.447 r  clock_125M_IBUF_inst/O
-                         net (fo=1, routed)           0.683     1.130    clock_125M_IBUF
-    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.159 r  clock_125M_IBUF_BUFG_inst/O
-                         net (fo=28, routed)          0.854     2.013    running_leds0/clock_125M_IBUF_BUFG
-    SLICE_X40Y31         FDRE                                         r  running_leds0/prescaler_reg[5]/C
-                         clock pessimism             -0.514     1.499    
-    SLICE_X40Y31         FDRE (Hold_fdre_C_D)         0.105     1.604    running_leds0/prescaler_reg[5]
-  -------------------------------------------------------------------
-                         required time                         -1.604    
-                         arrival time                           1.967    
-  -------------------------------------------------------------------
-                         slack                                  0.363    
+                         slack                                  0.259    
 
 
 
@@ -1537,35 +1395,35 @@ Sources:            { clock_125M }
 
 Check Type        Corner  Lib Pin  Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location        Pin
 Min Period        n/a     BUFG/I   n/a            2.155         8.000       5.845      BUFGCTRL_X0Y16  clock_125M_IBUF_BUFG_inst/I
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y30    running_leds0/prescaler_reg[0]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y32    running_leds0/prescaler_reg[10]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y32    running_leds0/prescaler_reg[11]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y33    running_leds0/prescaler_reg[12]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y33    running_leds0/prescaler_reg[13]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y33    running_leds0/prescaler_reg[14]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y33    running_leds0/prescaler_reg[15]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y34    running_leds0/prescaler_reg[16]/C
-Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X40Y34    running_leds0/prescaler_reg[17]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[0]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y32    running_leds0/prescaler_reg[10]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y32    running_leds0/prescaler_reg[11]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y33    running_leds0/prescaler_reg[12]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y33    running_leds0/prescaler_reg[13]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y33    running_leds0/prescaler_reg[14]/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y33    running_leds0/prescaler_reg[15]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[1]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[2]/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[3]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[0]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y34    running_leds0/prescaler_reg[16]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y34    running_leds0/prescaler_reg[17]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y34    running_leds0/prescaler_reg[18]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y34    running_leds0/prescaler_reg[19]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y30    running_leds0/prescaler_reg[1]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y35    running_leds0/prescaler_reg[20]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y35    running_leds0/prescaler_reg[21]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y35    running_leds0/prescaler_reg[22]/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y35    running_leds0/prescaler_reg[23]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y52    debounce_down/prescaler_reg[0]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y54    debounce_down/prescaler_reg[10]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y54    debounce_down/prescaler_reg[11]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y55    debounce_down/prescaler_reg[12]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y55    debounce_down/prescaler_reg[13]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y55    debounce_down/prescaler_reg[14]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y55    debounce_down/prescaler_reg[15]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y56    debounce_down/prescaler_reg[16]/C
+Min Period        n/a     FDRE/C   n/a            1.000         8.000       7.000      SLICE_X36Y56    debounce_down/prescaler_reg[17]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X41Y53    debounce_up/shift_register_reg[0]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X41Y53    debounce_up/shift_register_reg[1]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X41Y53    debounce_up/shift_register_reg[2]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X40Y53    debounce_up/shift_register_reg[3]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y52    debounce_down/prescaler_reg[0]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y54    debounce_down/prescaler_reg[10]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y54    debounce_down/prescaler_reg[11]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[12]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[13]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[14]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y52    debounce_down/prescaler_reg[0]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y54    debounce_down/prescaler_reg[10]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y54    debounce_down/prescaler_reg[11]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[12]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[13]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[14]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y55    debounce_down/prescaler_reg[15]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y56    debounce_down/prescaler_reg[16]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y56    debounce_down/prescaler_reg[17]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         4.000       3.500      SLICE_X36Y56    debounce_down/prescaler_reg[18]/C
 
 
 

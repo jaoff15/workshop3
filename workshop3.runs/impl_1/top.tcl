@@ -65,16 +65,15 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z010clg400-1
   set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.cache/wt [current_project]
-  set_property parent.project_path /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.xpr [current_project]
-  set_property ip_output_repo /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/offersen/Programs/vivadoprojects/workshop3/workshop3.cache/wt [current_project]
+  set_property parent.project_path /home/offersen/Programs/vivadoprojects/workshop3/workshop3.xpr [current_project]
+  set_property ip_output_repo /home/offersen/Programs/vivadoprojects/workshop3/workshop3.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet /home/offersen/Programs/vivadoprojects/workshop3/workshop3/workshop3.runs/synth_1/top.dcp
+  add_files -quiet /home/offersen/Programs/vivadoprojects/workshop3/workshop3.runs/synth_1/top.dcp
   read_xdc /home/offersen/Documents/SDU/Workshop/Workshop2/ZYBO_Master.xdc
   link_design -top top -part xc7z010clg400-1
   close_msg_db -file init_design.pb
