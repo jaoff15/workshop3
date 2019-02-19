@@ -29,7 +29,7 @@ process (clk)
 begin
    if rising_edge(clk) then
         prescaler <= prescaler + 1;
-        if prescaler > 3125000 then           -- ((1/125000000Hz)*0.1s)/4         (4 is the length of the shift register)
+        if prescaler > 3125000 then           -- (0.1/4)/(1/125000000Hz)       (4 is the length of the shift register)
             prescaler <=  x"00000000";
         end if;
    end if;
